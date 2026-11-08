@@ -31,7 +31,7 @@
 		"edition": "classic",
 		"status": "ready",
 		"dateAdded": 1761868800,
-		"dateLastModified": 1794152715,
+		"dateLastModified": 1794153985,
 		"_dateLastModifiedHash": "1f4b5e77fe"
 	},
 	"disease": [
@@ -1936,11 +1936,26 @@
 					"headers": [
 						"Background",
 						"Running the Adventure",
-						"Magh Udneer",
-						"Old Balf",
-						"Area 1: Fighting Pit",
-						"Area 2: Audience Stands",
-						"Treasure",
+						{
+							"header": "Magh Udneer",
+							"depth": 1
+						},
+						{
+							"header": "Old Balf",
+							"depth": 1
+						},
+						{
+							"header": "Area 1: Fighting Pit",
+							"depth": 1
+						},
+						{
+							"header": "Area 2: Audience Stands",
+							"depth": 1
+						},
+						{
+							"header": "Treasure",
+							"depth": 1
+						},
 						"Concluding the Adventure"
 					]
 				},
@@ -1953,10 +1968,22 @@
 					"headers": [
 						"Background",
 						"Running the Adventure",
-						"Charged Coral",
-						"Area 1: Maidens' Pools",
-						"Area 2: Isondim's Lair",
-						"Treasure",
+						{
+							"header": "Charged Coral",
+							"depth": 1
+						},
+						{
+							"header": "Area 1: Maidens' Pools",
+							"depth": 1
+						},
+						{
+							"header": "Area 2: Isondim's Lair",
+							"depth": 1
+						},
+						{
+							"header": "Treasure",
+							"depth": 1
+						},
 						"Concluding the Adventure"
 					]
 				},
@@ -1969,11 +1996,26 @@
 					"headers": [
 						"Background",
 						"Running the Adventure",
-						"Mineral Rot",
-						"Afflicted Outpost",
-						"Area 1: Temple Entrance",
-						"Area 2: Chamber of Sealed Urns",
-						"Treasure",
+						{
+							"header": "Mineral Rot",
+							"depth": 1
+						},
+						{
+							"header": "Afflicted Outpost",
+							"depth": 1
+						},
+						{
+							"header": "Area 1: Temple Entrance",
+							"depth": 1
+						},
+						{
+							"header": "Area 2: Chamber of Sealed Urns",
+							"depth": 1
+						},
+						{
+							"header": "Treasure",
+							"depth": 1
+						},
 						"Concluding the Adventure"
 					]
 				},
@@ -5592,7 +5634,7 @@
 										"Disadvantage on all rolls made while in direct sunlight"
 									]
 								},
-								"{@i Note: the curse affects only humanoid gang members.}",
+								"{@b {@i *}} The curse affects only humanoid gang members.",
 								{
 									"type": "entries",
 									"name": "Symbols of Xlrieh'oc",
@@ -5953,9 +5995,8 @@
 														{
 															"type": "entries",
 															"entries": [
-														"The wielder gains the following action, which must be used as an option for Multiattack:",
-																												"{@b {@i Abyssal Harvest.}} {@i Melee Weapon Attack:} +5 to hit, reach 10 ft., up to 4 targets. Hit: 5 ({@damage 1d8 + 1}) slashing damage."
-
+																"The wielder gains the following action, which must be used as an option for Multiattack:",
+																"{@b {@i Abyssal Harvest.}} {@i Melee Weapon Attack:} +5 to hit, reach 10 ft., up to 4 targets. Hit: 5 ({@damage 1d8 + 1}) slashing damage."
 															]
 														}
 													]
@@ -6266,100 +6307,85 @@
 										"{@b {@i Round 2.}} Skitch eats townspeople. Ingot burrows east 10 feet. Magh and Old Balf defend their pets as described below.",
 										"{@b {@i Round 3.}} Skitch continues to eat townspeople. Uncontested, Ingot burrows out of the ground and begins eating townspeople ({@b F})."
 									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Magh Udneer",
-							"id": "23.3",
-							"entries": [
-								{
-									"type": "insetReadaloud",
-									"entries": [
-										"A tall woman in stained coveralls and enormous leather mitts, Magh stares unflinchingly with hard gray eyes."
-									]
 								},
 								{
 									"type": "entries",
+									"name": "Magh Udneer",
+									"id": "23.3",
 									"entries": [
+										{
+											"type": "insetReadaloud",
+											"entries": [
+												"A tall woman in stained coveralls and enormous leather mitts, Magh stares unflinchingly with hard gray eyes."
+											]
+										},
 										{
 											"type": "entries",
 											"name": "Miner, Mother, Dogmole Owner",
 											"entries": [
 												"Magh is the tough-as-nails glue that holds the Bleak Rock mining operation together. She oversees a crew of 12 in the iron mine just north of town. Magh's dogmole, Ingot, is the love of her life, much to the chagrin of her husband Uro and son Klip. Having won many battles against the region's inhospitable invaders, Magh is considered a {@creature veteran} in combat: she has no crossbow and has an AC of 12 (leather armor)."
 											]
-										}
-									]
-								},
-								"Attacking Ingot makes her hostile toward the PCs, and she attacks them to defend her pet. Magh is immune to intimidation attempts, but a successful {@dc 14} Charisma ({@skill Persuasion}) check convinces her to stop attacking the party. Beating the DC by 7 or more enlists her aid in putting Ingot down. (\"If anyone's to do it, it ought to be me.\")",
-								"Killing Magh incurs the wrath of the miners (twelve {@creature thug||thugs} without crossbows), who attempt to drive the PCs out of town after the {@creature Dogmole Juggernaut|ToB|dogmole juggernaut} combat is resolved. Calming them requires a successful {@dc 17} Charisma ({@skill Intimidation} or {@skill Persuasion}) check, which is reduced to 12 if a PC first succeeds on a {@dc 14} Wisdom ({@skill Insight}) check to determine that only a quarter of the miners are committed to fighting."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Old Balf",
-							"id": "23.4",
-							"entries": [
-								{
-									"type": "insetReadaloud",
-									"entries": [
-										"Bent and wiry, Old Balf wears fine clothing and a fancy hat. He moves with an unsettling speed for such an old man."
+										},
+										"Attacking Ingot makes her hostile toward the PCs, and she attacks them to defend her pet. Magh is immune to intimidation attempts, but a successful {@dc 14} Charisma ({@skill Persuasion}) check convinces her to stop attacking the party. Beating the DC by 7 or more enlists her aid in putting Ingot down. (\"If anyone's to do it, it ought to be me.\")",
+										"Killing Magh incurs the wrath of the miners (twelve {@creature thug||thugs} without crossbows), who attempt to drive the PCs out of town after the {@creature Dogmole Juggernaut|ToB|dogmole juggernaut} combat is resolved. Calming them requires a successful {@dc 17} Charisma ({@skill Intimidation} or {@skill Persuasion}) check, which is reduced to 12 if a PC first succeeds on a {@dc 14} Wisdom ({@skill Insight}) check to determine that only a quarter of the miners are committed to fighting."
 									]
 								},
 								{
 									"type": "entries",
+									"name": "Old Balf",
+									"id": "23.4",
 									"entries": [
+										{
+											"type": "insetReadaloud",
+											"entries": [
+												"Bent and wiry, Old Balf wears fine clothing and a fancy hat. He moves with an unsettling speed for such an old man."
+											]
+										},
 										{
 											"type": "entries",
 											"name": "Rocking Chair Warmer, Darts Enthusiast, Coot",
 											"entries": [
 												"Old Balf is a long-retired performer turned town crank. His past as an acrobat and juggler for the Yellow Haze traveling circus show makes him surprisingly limber and quick. His dogmole, Skitch, is the only living thing in town that feels affection toward the crotchety crack shot."
 											]
-										}
+										},
+										"An avid fan of darts, Balf always carries a magical dart that returns to his hand after being thrown. Balf is treated as a {@creature spy} in combat: he carries no melee weapons and uses darts instead of a shortbow. Attacking Skitch sends Balf into a cunning rage. He Sneak Attacks as often as he can by hiding in the seating around the fighting pit and hurling darts at PCs who engage Skitch. Balf is too deaf to be sweet-talked and is immune to persuasion attempts, but a successful {@dc 17} Charisma ({@skill Intimidation}) check drives him off and ends his sniping. If Balf is the target of two or more melee attacks, he gives up fighting and resorts to cursing. Killing Old Balf has no immediate consequences, but he was loved and respected by his circus mates, and the Yellow Haze might or might not be a cover for welltrained assassins."
 									]
 								},
-								"An avid fan of darts, Balf always carries a magical dart that returns to his hand after being thrown. Balf is treated as a {@creature spy} in combat: he carries no melee weapons and uses darts instead of a shortbow. Attacking Skitch sends Balf into a cunning rage. He Sneak Attacks as often as he can by hiding in the seating around the fighting pit and hurling darts at PCs who engage Skitch. Balf is too deaf to be sweet-talked and is immune to persuasion attempts, but a successful {@dc 17} Charisma ({@skill Intimidation}) check drives him off and ends his sniping. If Balf is the target of two or more melee attacks, he gives up fighting and resorts to cursing. Killing Old Balf has no immediate consequences, but he was loved and respected by his circus mates, and the Yellow Haze might or might not be a cover for welltrained assassins."
-							]
-						},
-						{
-							"type": "image",
-							"imageType": "map",
-							"href": {
-								"type": "external",
-								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/KPPreparedExpanded/page_000092.webp"
-							}
-						},
-						{
-							"type": "entries",
-							"name": "Area 1: Fighting Pit",
-							"id": "23.6",
-							"entries": [
 								{
-									"type": "insetReadaloud",
-									"entries": [
-										"A circular pit dug 10 feet into the ground, the dogmole's arena is 45 feet across at its widest point. Dried blood from previous contests is visible on the bare earthen walls. Two heavy wooden poles serve as tether points for the animals."
-									]
+									"type": "image",
+									"imageType": "map",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/KPPreparedExpanded/page_000092.webp"
+									}
 								},
-								"The walls of the pit are easily climbed. A row of vicious wooden spikes lines the wall at the pit's floor. Creatures forced onto the spikes must make a {@dc 14} Dexterity ({@skill Acrobatics}) saving throw, taking 6 ({@damage 1d8 + 2}) piercing damage on a failed save or half as much damage on a successful one. The dust kicked up from the animal's transformation fills the air in the pit and in the tunnel dug by Ingot. PCs who start their turn in the pit must succeed on a {@dc 10} Constitution saving throw or have disadvantage on their attacks. The dust persists for 2 rounds and can be dispersed with magic."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Area 2: Audience Stands",
-							"id": "23.7",
-							"entries": [
-								{
-									"type": "insetReadaloud",
-									"entries": [
-										"The impressive carpentry and design of these wooden bleachers suggests the people of Bleak Rock take their dogmole fighting seriously. Small barrels full of cheap mead punctuate the roughly circular rows of seating that rise steeply from the edge of the pit."
-									]
-								},
-								"The benches are made of plain, unfinished wood. A {@creature Dogmole Juggernaut|ToB|dogmole juggernaut} moving over the seats crushes them, leaving behind a trail of difficult terrain. Humanoids gain advantage on all {@skill Stealth} rolls made on the bleachers since the barrels and open rises between benches make ideal hiding spots in the dim evening light.",
-								"The audience stands are also highly combustible, and if a target standing in the bleachers is targeted by an attack dealing fire or lightning damage, the bleachers catch fire. The fire spreads randomly at a rate of 5 feet per round and causes 4 ({@damage 1d4 + 2}) fire damage to any creature ending its turn in the flames.",
 								{
 									"type": "entries",
+									"name": "Area 1: Fighting Pit",
+									"id": "23.6",
 									"entries": [
+										{
+											"type": "insetReadaloud",
+											"entries": [
+												"A circular pit dug 10 feet into the ground, the dogmole's arena is 45 feet across at its widest point. Dried blood from previous contests is visible on the bare earthen walls. Two heavy wooden poles serve as tether points for the animals."
+											]
+										},
+										"The walls of the pit are easily climbed. A row of vicious wooden spikes lines the wall at the pit's floor. Creatures forced onto the spikes must make a {@dc 14} Dexterity ({@skill Acrobatics}) saving throw, taking 6 ({@damage 1d8 + 2}) piercing damage on a failed save or half as much damage on a successful one. The dust kicked up from the animal's transformation fills the air in the pit and in the tunnel dug by Ingot. PCs who start their turn in the pit must succeed on a {@dc 10} Constitution saving throw or have disadvantage on their attacks. The dust persists for 2 rounds and can be dispersed with magic."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Area 2: Audience Stands",
+									"id": "23.7",
+									"entries": [
+										{
+											"type": "insetReadaloud",
+											"entries": [
+												"The impressive carpentry and design of these wooden bleachers suggests the people of Bleak Rock take their dogmole fighting seriously. Small barrels full of cheap mead punctuate the roughly circular rows of seating that rise steeply from the edge of the pit."
+											]
+										},
+										"The benches are made of plain, unfinished wood. A {@creature Dogmole Juggernaut|ToB|dogmole juggernaut} moving over the seats crushes them, leaving behind a trail of difficult terrain. Humanoids gain advantage on all {@skill Stealth} rolls made on the bleachers since the barrels and open rises between benches make ideal hiding spots in the dim evening light.",
+										"The audience stands are also highly combustible, and if a target standing in the bleachers is targeted by an attack dealing fire or lightning damage, the bleachers catch fire. The fire spreads randomly at a rate of 5 feet per round and causes 4 ({@damage 1d4 + 2}) fire damage to any creature ending its turn in the flames.",
 										{
 											"type": "entries",
 											"name": "Eating the Townspeople",
@@ -6368,15 +6394,15 @@
 											]
 										}
 									]
+								},
+								{
+									"type": "entries",
+									"name": "Treasure",
+									"id": "23.8",
+									"entries": [
+										"There is not much treasure in the ruins of Bleak Rock's fighting arena. Each of the six townspeople who survive offer the PCs 10-15 gp or other valuables as thanks for saving their lives."
+									]
 								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Treasure",
-							"id": "23.8",
-							"entries": [
-								"There is not much treasure in the ruins of Bleak Rock's fighting arena. Each of the six townspeople who survive offer the PCs 10-15 gp or other valuables as thanks for saving their lives."
 							]
 						},
 						{
@@ -6454,28 +6480,23 @@
 										"The rocky spire rises from the sand, a great stone finger pointing at the sky. A few gulls circle lazily above its peak, and the sound of the ocean mixes with their cries. A few scuttling things break into panic before your steps, their pearlescent shells gleaming in the sun."
 									]
 								},
-								"The spire is roughly 500 feet in diameter and rises 60 feet into the air. The rocky face of the spire provides many handholds for those endeavoring to climb. The dragon has pushed the bones of the creatures it has eaten out of its lair, and they have formed a pile at the bottom, in which all manner of sea creature and humanoid remains can be found. A careful search of the bones and a successful {@dc 15} Wisdom ({@skill Perception}) check uncovers a few very long strands of black hair mingled in with the bones. The hair belongs to the drowned maidens who dwell in the chamber outside the dragon's lair. PCs who touch the hairs find them clinging and difficult to remove."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Charged Coral",
-							"id": "24.3",
-							"entries": [
-								"The walls of the caves inside the spire are made from magical coral that feeds on electricity. The coral glows, alternating vibrant blue and pink. The entire cave system is lit with dim light from this spectacular display. Creatures who come into contact with the walls must succeed on a {@dc 14} Constitution saving throw or take 7 ({@damage 2d6}) lightning damage. On a failed save, the creature is also affected by one of the following effects (choose or roll randomly):",
-								{
-									"type": "list",
-									"items": [
-										"{@b {@i 1-2 Twitchy.}} The PC feels overly alert. They have advantage on initiative rolls and disadvantage on Dexterity checks for an hour.",
-										"{@b {@i 3-4 Humming.}} The PC emits a constant audible hum, which is soothing and restores them to full hit points. However, they have disadvantage on {@skill Stealth} checks for an hour.",
-										"{@b {@i 5-6 Buzzed.}} The PC feels intoxicated by the electrical field. They have advantage on saving throws against spells and effects that cause fear and disadvantage on Intelligence checks for an hour."
-									]
-								},
-								"Note that once a PC has been affected by the coral's magic, they are immune to the extra effects for 24 hours. However, they may still take damage from coming into contact with the walls again.",
-								"A successful {@dc 17} Intelligence ({@skill Arcana}) check suggests the coral was once used as storage for magical energy. It seems likely the magic animated the coral in unpredictable ways. A successful {@dc 17} Wisdom ({@skill Nature}) check reveals the coral has adapted to live out of water and likely uses electricity to maintain itself.",
+								"The spire is roughly 500 feet in diameter and rises 60 feet into the air. The rocky face of the spire provides many handholds for those endeavoring to climb. The dragon has pushed the bones of the creatures it has eaten out of its lair, and they have formed a pile at the bottom, in which all manner of sea creature and humanoid remains can be found. A careful search of the bones and a successful {@dc 15} Wisdom ({@skill Perception}) check uncovers a few very long strands of black hair mingled in with the bones. The hair belongs to the drowned maidens who dwell in the chamber outside the dragon's lair. PCs who touch the hairs find them clinging and difficult to remove.",
 								{
 									"type": "entries",
+									"name": "Charged Coral",
+									"id": "24.3",
 									"entries": [
+										"The walls of the caves inside the spire are made from magical coral that feeds on electricity. The coral glows, alternating vibrant blue and pink. The entire cave system is lit with dim light from this spectacular display. Creatures who come into contact with the walls must succeed on a {@dc 14} Constitution saving throw or take 7 ({@damage 2d6}) lightning damage. On a failed save, the creature is also affected by one of the following effects (choose or roll randomly):",
+										{
+											"type": "list",
+											"items": [
+												"{@b {@i 1-2 Twitchy.}} The PC feels overly alert. They have advantage on initiative rolls and disadvantage on Dexterity checks for an hour.",
+												"{@b {@i 3-4 Humming.}} The PC emits a constant audible hum, which is soothing and restores them to full hit points. However, they have disadvantage on {@skill Stealth} checks for an hour.",
+												"{@b {@i 5-6 Buzzed.}} The PC feels intoxicated by the electrical field. They have advantage on saving throws against spells and effects that cause fear and disadvantage on Intelligence checks for an hour."
+											]
+										},
+										"Note that once a PC has been affected by the coral's magic, they are immune to the extra effects for 24 hours. However, they may still take damage from coming into contact with the walls again.",
+										"A successful {@dc 17} Intelligence ({@skill Arcana}) check suggests the coral was once used as storage for magical energy. It seems likely the magic animated the coral in unpredictable ways. A successful {@dc 17} Wisdom ({@skill Nature}) check reveals the coral has adapted to live out of water and likely uses electricity to maintain itself.",
 										{
 											"type": "entries",
 											"name": "Living Arcs",
@@ -6484,44 +6505,34 @@
 											]
 										}
 									]
-								}
-							]
-						},
-						{
-							"type": "image",
-							"imageType": "map",
-							"href": {
-								"type": "external",
-								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/KPPreparedExpanded/page_000094.webp"
-							}
-						},
-						{
-							"type": "entries",
-							"name": "Area 1: Maidens' Pools",
-							"id": "24.4",
-							"entries": [
-								{
-									"type": "insetReadaloud",
-									"entries": [
-										"This large, rocky chamber is punctuated with stalagmites and stalactites. The walls appear to be made from stone and coral. The coral sheds dim blue light that crackles and hums. The slight sound of lapping water can be heard from farther inside."
-									]
 								},
-								"A few of the unhappy victims sacrificed in this strange place remain trapped here. The pools in this chamber serve as the resting place for these bitter spirits, and they are relatively neutral about the dragon's decision to occupy the upper chamber of the spire. The few explorers who came before have been trapped and eaten in these grim and watery caves long before reaching the dragon's lair.",
+								{
+									"type": "image",
+									"imageType": "map",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/KPPreparedExpanded/page_000094.webp"
+									}
+								},
 								{
 									"type": "entries",
+									"name": "Area 1: Maidens' Pools",
+									"id": "24.4",
 									"entries": [
+										{
+											"type": "insetReadaloud",
+											"entries": [
+												"This large, rocky chamber is punctuated with stalagmites and stalactites. The walls appear to be made from stone and coral. The coral sheds dim blue light that crackles and hums. The slight sound of lapping water can be heard from farther inside."
+											]
+										},
+										"A few of the unhappy victims sacrificed in this strange place remain trapped here. The pools in this chamber serve as the resting place for these bitter spirits, and they are relatively neutral about the dragon's decision to occupy the upper chamber of the spire. The few explorers who came before have been trapped and eaten in these grim and watery caves long before reaching the dragon's lair.",
 										{
 											"type": "entries",
 											"name": "Bitter Cries, Spectral Sighs",
 											"entries": [
 												"The caves sound with the angry and mournful cries of the dead. Each PC who hears it must succeed on a {@dc 14} Wisdom saving throw or feel a deep sense of dread and begin their next round of combat {@condition frightened} by the nearest enemy. The effect lasts until the end of their next turn."
 											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"entries": [
+										},
 										{
 											"type": "entries",
 											"name": "Floating in the Water",
@@ -6530,24 +6541,19 @@
 											]
 										}
 									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Area 2: Isondim's Lair",
-							"id": "24.5",
-							"entries": [
-								{
-									"type": "insetReadaloud",
-									"entries": [
-										"The ceiling of this large, natural cavern is almost entirely open to the air. In the center is a seemingly very old stone-and-shell altar that sparks occasionally. A very big pearl has been embedded in the top of the altar and crackles audibly. The coral walls are aglow with electrical energy, shedding bright light throughout. There are blue scales littering the floor, and the walls show evidence of being scraped or clawed."
-									]
 								},
-								"This is the lair of Isondim, the {@creature young blue dragon}. He has grown very attached to the altar and enjoys its effect on him and the coral walls. He assumes the PCs have arrived to steal the pearl and will likely attack them immediately. Isondim may engage the party in conversation if they make a large effort to avoid combat. He might spare them, provided they offer him something valuable. He will not tolerate deception or exploration of his lair. He begins combat in the skies above the spire and uses his Lightning Breath before landing and continuing his attack.",
 								{
 									"type": "entries",
+									"name": "Area 2: Isondim's Lair",
+									"id": "24.5",
 									"entries": [
+										{
+											"type": "insetReadaloud",
+											"entries": [
+												"The ceiling of this large, natural cavern is almost entirely open to the air. In the center is a seemingly very old stone-and-shell altar that sparks occasionally. A very big pearl has been embedded in the top of the altar and crackles audibly. The coral walls are aglow with electrical energy, shedding bright light throughout. There are blue scales littering the floor, and the walls show evidence of being scraped or clawed."
+											]
+										},
+										"This is the lair of Isondim, the {@creature young blue dragon}. He has grown very attached to the altar and enjoys its effect on him and the coral walls. He assumes the PCs have arrived to steal the pearl and will likely attack them immediately. Isondim may engage the party in conversation if they make a large effort to avoid combat. He might spare them, provided they offer him something valuable. He will not tolerate deception or exploration of his lair. He begins combat in the skies above the spire and uses his Lightning Breath before landing and continuing his attack.",
 										{
 											"type": "entries",
 											"name": "Master of the Altar",
@@ -6562,12 +6568,7 @@
 													]
 												}
 											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"entries": [
+										},
 										{
 											"type": "entries",
 											"name": "Fulminating Altar",
@@ -6585,15 +6586,15 @@
 											]
 										}
 									]
+								},
+								{
+									"type": "entries",
+									"name": "Treasure",
+									"id": "24.6",
+									"entries": [
+										"Isondim has amassed a small hoard of treasure inside his lair. There are 700 gp and 1,100 sp spread about the dragon's chamber. There are also {@dice 1d8 × 10} precious stones of various types (25 gp value each) stored in ornate wooden boxes stacked among the coins."
+									]
 								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Treasure",
-							"id": "24.6",
-							"entries": [
-								"Isondim has amassed a small hoard of treasure inside his lair. There are 700 gp and 1,100 sp spread about the dragon's chamber. There are also {@dice 1d8 × 10} precious stones of various types (25 gp value each) stored in ornate wooden boxes stacked among the coins."
 							]
 						},
 						{
@@ -6677,91 +6678,86 @@
 										"She is surprised anyone thinks the old ruins of the jungle are worth that kind of coin and effort.",
 										"She can provide the location of the footpath leading to the outpost-about a day's travel farther along the road."
 									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Mineral Rot",
-							"id": "25.3",
-							"entries": [
-								"Upon contracting the disease, a creature feels immediately unwell and gains a level of {@condition exhaustion}. During its next long rest, the creature must make a successful {@dc 14} Constitution saving throw or lose half its Charisma score as its flesh begins transforming into a pock-marked, stony surface. The disease can be cured by magic during this stage.",
-								"The creature must repeat the saving throw during its next long rest, fighting off the disease on a successful save or succumbing to it on a failed one. Creatures who fail are changed into twisted moss-and-stone covered versions of themselves. Mindless and malicious, the creature attacks any living thing it meets. From this point on, creatures bitten by the afflicted must make a successful {@dc 14} Constitution saving throw or contract the disease. Once fully transformed, only a {@spell wish} spell can restore them.",
-								"Use the following template to apply the end stage of mineral rot to foes faced by the party. The disease raises a creature's challenge rating by 1, so adjust encounters accordingly:",
-								{
-									"type": "list",
-									"items": [
-										"Increase the AC by 2.",
-										"The creature gains resistance to slashing damage from non-magical sources.",
-										"The creature is immune to disease and poison.",
-										"The creature's unarmed attacks are magical.",
-										"The creature gains extra hit points equal to half its current hit point maximum.",
-										"If it does not already have one, the creature gains a bite attack with hit and damage ranges appropriate to its CR. Creatures bitten by this attack must make a successful DC 14 Constitution save or contract mineral rot. A successful save results in immunity to contracting the disease for 24 hours."
-									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Afflicted Outpost",
-							"id": "25.4",
-							"entries": [
-								{
-									"type": "insetReadaloud",
-									"entries": [
-										"The smoldering remains of the outpost lie before you. Its timber walls appear torn apart in several places. Through the gaps, you can see the place in various states of ruin."
-									]
 								},
-								"The exploration outpost was built to support the excursion to the temple but fell to the infection several weeks ago. The workers and hired mercenaries fought against one another and against the infected animals that prowl the region.",
 								{
 									"type": "entries",
-									"name": "Exterior",
+									"name": "Mineral Rot",
+									"id": "25.3",
 									"entries": [
-										"The exterior of the outpost hints at the battles that occurred here. A successful {@dc 14} Intelligence ({@skill Investigation}) check deduces that some of the inhabitants of the outpost died while trying to flee. Nearby is a recently blazed path through the jungle."
+										"Upon contracting the disease, a creature feels immediately unwell and gains a level of {@condition exhaustion}. During its next long rest, the creature must make a successful {@dc 14} Constitution saving throw or lose half its Charisma score as its flesh begins transforming into a pock-marked, stony surface. The disease can be cured by magic during this stage.",
+										"The creature must repeat the saving throw during its next long rest, fighting off the disease on a successful save or succumbing to it on a failed one. Creatures who fail are changed into twisted moss-and-stone covered versions of themselves. Mindless and malicious, the creature attacks any living thing it meets. From this point on, creatures bitten by the afflicted must make a successful {@dc 14} Constitution saving throw or contract the disease. Once fully transformed, only a {@spell wish} spell can restore them.",
+										"Use the following template to apply the end stage of mineral rot to foes faced by the party. The disease raises a creature's challenge rating by 1, so adjust encounters accordingly:",
+										{
+											"type": "list",
+											"items": [
+												"Increase the AC by 2.",
+												"The creature gains resistance to slashing damage from non-magical sources.",
+												"The creature is immune to disease and poison.",
+												"The creature's unarmed attacks are magical.",
+												"The creature gains extra hit points equal to half its current hit point maximum.",
+												"If it does not already have one, the creature gains a bite attack with hit and damage ranges appropriate to its CR. Creatures bitten by this attack must make a successful DC 14 Constitution save or contract mineral rot. A successful save results in immunity to contracting the disease for 24 hours."
+											]
+										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Interior",
+									"name": "Afflicted Outpost",
+									"id": "25.4",
 									"entries": [
-										"The outpost is destroyed. The living quarters and mess hall have been badly damaged by fire. Small animals flit here and there among the rubble and ash. Corpses litter the outpost. Those who dwelled here either died or succumbed to the Mineral Rot disease and fled into the jungle."
+										{
+											"type": "insetReadaloud",
+											"entries": [
+												"The smoldering remains of the outpost lie before you. Its timber walls appear torn apart in several places. Through the gaps, you can see the place in various states of ruin."
+											]
+										},
+										"The exploration outpost was built to support the excursion to the temple but fell to the infection several weeks ago. The workers and hired mercenaries fought against one another and against the infected animals that prowl the region.",
+										{
+											"type": "entries",
+											"name": "Exterior",
+											"entries": [
+												"The exterior of the outpost hints at the battles that occurred here. A successful {@dc 14} Intelligence ({@skill Investigation}) check deduces that some of the inhabitants of the outpost died while trying to flee. Nearby is a recently blazed path through the jungle."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Interior",
+											"entries": [
+												"The outpost is destroyed. The living quarters and mess hall have been badly damaged by fire. Small animals flit here and there among the rubble and ash. Corpses litter the outpost. Those who dwelled here either died or succumbed to the Mineral Rot disease and fled into the jungle."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Storehouse",
+											"entries": [
+												"Several humanoid figures sit, staring vacantly at the dirt floor. Their clothing has fallen away, revealing the moss-covered, stony crust that spreads across their skin. Three (CR 8) or four (CR 10) afflicted mercenaries sit, panting mindlessly in the half-dark of the storehouse. They sprint at the PCs and attempt to bite them. Treat the mercenaries as {@creature berserker||berserkers} with the {@area Mineral Rot|25.3|x} disease template applied to them. They wield no weapons but have the following Bite attack:",
+												"{@b {@i Bite.}} {@i Melee Weapon Attack:} {@hit 5} to hit, reach 5 ft., 1 target. Hit: 8 ({@damage 1d8 + 3}) piercing damage, and the creature must succeed on a {@dc 14} Constitution saving throw or contract {@disease Mineral Rot|KPPreparedExpanded}. A successful save results in immunity to the disease for 24 hours.",
+												"There are still some intact supplies here: 20 days' worth of rations, several barrels of good drinking water, and two healer's kits can be found in the rubble."
+											]
+										}
 									]
 								},
 								{
-									"type": "entries",
-									"name": "Storehouse",
-									"entries": [
-										"Several humanoid figures sit, staring vacantly at the dirt floor. Their clothing has fallen away, revealing the moss-covered, stony crust that spreads across their skin. Three (CR 8) or four (CR 10) afflicted mercenaries sit, panting mindlessly in the half-dark of the storehouse. They sprint at the PCs and attempt to bite them. Treat the mercenaries as {@creature berserker||berserkers} with the {@area Mineral Rot|25.3|x} disease template applied to them. They wield no weapons but have the following Bite attack:",
-										"{@b {@i Bite.}} {@i Melee Weapon Attack:} {@hit 5} to hit, reach 5 ft., 1 target. Hit: 8 ({@damage 1d8 + 3}) piercing damage, and the creature must succeed on a {@dc 14} Constitution saving throw or contract {@disease Mineral Rot|KPPreparedExpanded}. A successful save results in immunity to the disease for 24 hours.",
-										"There are still some intact supplies here: 20 days' worth of rations, several barrels of good drinking water, and two healer's kits can be found in the rubble."
-									]
-								}
-							]
-						},
-						{
-							"type": "image",
-							"imageType": "map",
-							"href": {
-								"type": "external",
-								"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/KPPreparedExpanded/page_000100.webp"
-							}
-						},
-						{
-							"type": "entries",
-							"name": "Area 1: Temple Entrance",
-							"id": "25.5",
-							"entries": [
-								{
-									"type": "insetReadaloud",
-									"entries": [
-										"A sliver of a passage has been excavated, allowing access to the temple's interior. The thin passage eventually opens into a small entry chamber. Piles of moss-covered stones lie against the walls, and a stone staircase descends deeper into the darkness."
-									]
+									"type": "image",
+									"imageType": "map",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew-img/main/img/KPPreparedExpanded/page_000100.webp"
+									}
 								},
-								"The walls here are marked with glyphs and pictographs. A successful {@dc 15} Intelligence ({@skill Investigation}) check suggests the glyphs are likely a warning of some sort, and succeeding by 5 or more deduces that the temple was likely abandoned and sealed at some point in the distant past in order to contain a threat.",
-								"There is some equipment belonging to the excavation team on the floor: broken tools and spilled parchment cases litter the ground.",
 								{
 									"type": "entries",
+									"name": "Area 1: Temple Entrance",
+									"id": "25.5",
 									"entries": [
+										{
+											"type": "insetReadaloud",
+											"entries": [
+												"A sliver of a passage has been excavated, allowing access to the temple's interior. The thin passage eventually opens into a small entry chamber. Piles of moss-covered stones lie against the walls, and a stone staircase descends deeper into the darkness."
+											]
+										},
+										"The walls here are marked with glyphs and pictographs. A successful {@dc 15} Intelligence ({@skill Investigation}) check suggests the glyphs are likely a warning of some sort, and succeeding by 5 or more deduces that the temple was likely abandoned and sealed at some point in the distant past in order to contain a threat.",
+										"There is some equipment belonging to the excavation team on the floor: broken tools and spilled parchment cases litter the ground.",
 										{
 											"type": "entries",
 											"name": "Piles",
@@ -6770,36 +6766,26 @@
 											]
 										}
 									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Area 2: Chamber of Sealed Urns",
-							"id": "25.6",
-							"entries": [
-								{
-									"type": "insetReadaloud",
-									"entries": [
-										"The bottom of the stairs opens into a great, circular chamber. The roots of the jungle have penetrated this stony place, and a tangle of vines spread down from above. In the center of the chamber are six stone urns. All but one are sealed tight. The open one's lid sits on the floor nearby."
-									]
 								},
-								"The urns contain the remains of ancient humanoids afflicted by the {@disease Mineral Rot|KPPreparedExpanded}. Unable to cleanse the corpses properly and afraid the disease would spread, the builders of the temple locked the corpses away-successfully stopping the transmission of the disease. The recent excavation unearthed the remains and allowed the disease to find new hosts.",
 								{
 									"type": "entries",
+									"name": "Area 2: Chamber of Sealed Urns",
+									"id": "25.6",
 									"entries": [
+										{
+											"type": "insetReadaloud",
+											"entries": [
+												"The bottom of the stairs opens into a great, circular chamber. The roots of the jungle have penetrated this stony place, and a tangle of vines spread down from above. In the center of the chamber are six stone urns. All but one are sealed tight. The open one's lid sits on the floor nearby."
+											]
+										},
+										"The urns contain the remains of ancient humanoids afflicted by the {@disease Mineral Rot|KPPreparedExpanded}. Unable to cleanse the corpses properly and afraid the disease would spread, the builders of the temple locked the corpses away-successfully stopping the transmission of the disease. The recent excavation unearthed the remains and allowed the disease to find new hosts.",
 										{
 											"type": "entries",
 											"name": "Stone Urns",
 											"entries": [
 												"Each urn contains the desiccated remains of an afflicted human. A pictograph on the exterior of the urns shows the stages of the disease. Opening an urn risks contracting the disease and requires a successful {@dc 14} Constitution saving throw to avoid. Each urn contains gold and silver jewelry (worth 200 gp total). The valuables in the open urn have spilled out onto the floor."
 											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"entries": [
+										},
 										{
 											"type": "entries",
 											"name": "Tangle",
@@ -6815,15 +6801,15 @@
 											]
 										}
 									]
+								},
+								{
+									"type": "entries",
+									"name": "Treasure",
+									"id": "25.7",
+									"entries": [
+										"In addition to the jewelry in the urns, a {@i {@item staff of the python}} clatters to the ground from the tangle once the guardian is defeated. It is very old and covered in glyphs similar to the ones found in the entrance."
+									]
 								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Treasure",
-							"id": "25.7",
-							"entries": [
-								"In addition to the jewelry in the urns, a {@i {@item staff of the python}} clatters to the ground from the tangle once the guardian is defeated. It is very old and covered in glyphs similar to the ones found in the entrance."
 							]
 						},
 						{
